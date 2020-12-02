@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+    <include
+        layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/homepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Home Page"
+            android:layout_marginTop="80dp"
+            android:textSize="60dp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/namagw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daffy Fayyadhya Ramzy"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@id/homepage"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1910511044"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@id/namagw"
+            android:layout_marginTop="16dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informatika 2019"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@id/nim"
+            android:layout_marginTop="16dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"/>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ExitFragment">
+
+    <include
+        layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Exit"
+            android:layout_marginTop="80dp"
+            android:textSize="60dp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/bye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Bye"
+            android:layout_marginTop="80dp"
+            android:textSize="40dp"
+            android:layout_below="@id/exit"
+            android:textColor="@color/colorBlack"/>
+    </RelativeLayout>
+
+</FrameLayout>
